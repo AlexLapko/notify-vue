@@ -4,7 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 import Home from './pages/Home'
-import Example from './pages/Example'
+import NotifyPage from './pages/NotifyPage'
 import NotFound from './pages/404'
 
 export default new Router({
@@ -16,9 +16,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/example',
-      name: 'example',
-      component: Example
+      path: '/notify',
+      name: 'notify',
+      component: NotifyPage
     },
     {
       path: '*',
